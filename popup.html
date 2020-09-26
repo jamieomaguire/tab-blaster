@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get rid of all open tabs for a specified website">
+    <title>Tab Blaster</title>
+    <link rel="stylesheet" href="./assets/popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <header class="popup__header">
+        <h1 class="popup__heading">Tab Blaster</h1>
+      </header>
+      <form id="form" class="popup__form">
+        <p class="popup__input">
+          <label for="url-to-remove">
+            Url:
+          </label>
+          
+          <input id="url-to-remove" class="popup__text-input" type="text" placeholder="the website url you want to blast">
+        </p>
+        
+        <p id="output-msg" class="popup__output-msg hidden">test</p>
+
+        <button id="blast-tabs" class="popup__btn">Blast Tabs</button>
+      </form>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
